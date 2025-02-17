@@ -1,7 +1,6 @@
-import { ApplicationConfig } from '@angular/core';
+// src/app/app.config.ts
 import { provideRouter } from '@angular/router';
-import { routes } from './app-routing.module';
-import { provideClientHydration } from '@angular/platform-browser';
+import { routes } from './app.routes';
 
 export const appConfig = [
     provideRouter(routes),

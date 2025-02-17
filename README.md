@@ -1,7 +1,7 @@
-## Run locally
-`npm install`  
-`ng serve`  
+`ng build --output-path docs --base-href /portfolio/`  
+`git add .`
+`git commit -m "some changes"`  
+`git push`  
 
-## Build and deploy
-`ng build --configuration production --base-href "https://nikuzejl.github.io/portfolio/"`  
-`ng push`  
+If using a separate branch fro the build
+`ngh --dir/browser`  

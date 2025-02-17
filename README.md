@@ -1,7 +1,6 @@
-`ng build --output-path docs --base-href /portfolio/`  
-`git add .`
+# How to build and deploy to GitHub pages
+`ng build --output-path=dist --base-href="/portfolio/"`  
+`ngh --dir=dist/browser`  
+`git add .`  
 `git commit -m "some changes"`  
 `git push`  
-
-If using a separate branch fro the build
-`ngh --dir/browser`  

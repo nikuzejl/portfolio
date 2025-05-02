@@ -1,0 +1,15 @@
+.container {
+    margin-right: 10%;
+    margin-left: 10%;
+    /*
+    display: flex;
+    background-color: green; */
+}
+
+.fading-line {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.2), transparent);
+    margin: 40px 0;
+  }
+  

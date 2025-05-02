@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './resume.component.css'
 })
 export class ResumeComponent {
+  resumeUrl = 'assets/resume.pdf';
 
+  openResume() {
+    window.open(this.resumeUrl, '_blank');
+  }
 }

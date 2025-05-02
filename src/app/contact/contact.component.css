@@ -1,0 +1,101 @@
+/* Section styling */
+.contact-section {
+    padding: 4rem 1rem;
+    background-color: #ffffff;
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2d3748;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Form Styling */
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input and Textarea Styling */
+  .input-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-label {
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .input-field {
+    width: 90%;
+    padding: 1.25rem; /* Increased padding for better spacing */
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #4a5568;
+    transition: border 0.3s;
+  }
+  
+  .input-field:focus {
+    border-color: #3182ce;
+    outline: none;
+  }
+  
+  /* Button styling */
+  .submit-btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: #3182ce;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .submit-btn:focus {
+    outline: none;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 768px) {
+    .contact-form {
+      padding: 1.5rem;
+    }
+  
+    .contact-title {
+      font-size: 1.75rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-section {
+      padding: 2rem 1rem;
+    }
+  
+    .contact-title {
+      font-size: 1.5rem;
+    }
+  
+    .input-field {
+      padding: 1rem; /* Adjusted padding for mobile devices */
+      font-size: 0.95rem;
+    }
+  
+    .submit-btn {
+      padding: 0.9rem;
+    }
+  }
+  

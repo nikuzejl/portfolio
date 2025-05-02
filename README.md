@@ -1,27 +1,30 @@
-# Portfolio
+# Updating GitHub Page
+`ng build --configuration production --base-href "https://nikuzejl.github.io/portfolio/"`
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+`git add .`
 
-## Development server
+`git commit -m "new changes"`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+`git push --force`
 
-## Code scaffolding
+# Docker
+Start a container: `docker container start name`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Stop a container: `docker container stop name`
 
-## Build
+Delete: `docker container rm stop name`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+List containers: `docker container ls -a`
 
-## Running unit tests
+Run docker image: `docker run -p 8000:8080 image-name`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Docker build path in angular.js:
+          "options": {
+            "outputPath": "dist/college-guide",
+             ...
+            }
 
-## Running end-to-end tests
+Does github pages require /docs?
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# test

@@ -1,0 +1,21 @@
+#email{
+    width: 200px;
+    border-radius: 5px;
+ }
+ 
+ #message{
+     width:200px;
+     height: 80px;
+     margin-top: 10px;
+     border-color:rgb(150, 157, 163);
+     border-radius: 5px;
+ }
+
+button{
+    background-color: orange;
+    height: 26px;
+    border-radius: 12px;
+    box-shadow: 2px 3px 4px grey;
+    border-style: none;
+    margin: 10px;
+}

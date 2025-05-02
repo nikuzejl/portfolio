@@ -1,0 +1,21 @@
+.container{
+    font-family: Verdana;
+    font-weight: 500;
+    line-height: 1.6em;
+}
+
+.text{
+    margin: auto;
+    color:white;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px;  
+}
+
+h2{
+    margin-bottom:5px;
+}
+
+.footer{
+    height: 40px;
+}

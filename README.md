@@ -1,7 +1,7 @@
 # Updating GitHub Page
 `ng build --configuration production --base-href "https://nikuzejl.github.io/portfolio/"`
 `git add .`  
-`git commit -m "new changes"`  
+`git commit -m "cosmetic improvements"`  
 `git push --force`  
 
 # Docker

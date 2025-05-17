@@ -1,6 +1,10 @@
 <div class="container">
   <h2>You can contact me here</h2>
 
+    <div *ngIf="successMessage" class="alert success-alert">
+    {{ successMessage }}
+  </div>
+
   <form (ngSubmit)="submitForm()" #form="ngForm">
     <input
       type="text"

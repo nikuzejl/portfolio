@@ -1,13 +1,17 @@
-# Updating GitHub Page
-`ng build --configuration production --base-href "https://nikuzejl.github.io/portfolio/"`
-`git add .`  
-`git commit -m "cosmetic improvements"`  
-`git push --force`  
+# Portfolio
 
-# Docker
-Start a container: `docker container start name`  
-Stop a container: `docker container stop name`  
-Delete: `docker container rm stop name`  
-List containers: `docker container ls -a`  
-Run docker image: `docker run -p 8000:8080 image-name`  
+## Building
 
+`ng build --configuration production --base-href "/portfolio/"`
+
+## Deploying to GitHub Pages
+
+1. Build the app:
+   `ng build --configuration production --base-href "/portfolio/"`
+2. Commit and push the generated files in [docs/](/Users/nikuzejl/Desktop/PROJECTS/portfolio/docs).
+3. In GitHub, open repository Settings > Pages.
+4. Set the source to:
+   - Branch: `main`
+   - Folder: `/docs`
+5. Wait for GitHub Pages to finish publishing, then open:
+   `https://nikuzejl.github.io/portfolio/`
